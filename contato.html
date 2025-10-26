@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contato</title>
+</head>
+
+<body>
+    <!-- Corpo principal da página -->
+    <header>
+        <!-- Cabeçalho com logo, título e slogan -->
+        <img src="imagens/Logo.png" alt="Logo">
+        <!-- Imagem da logo da associação -->
+        <h1>Associação ReTech</h1>
+        <!-- Título principal da página -->
+        <p>Tecnologia Reciclada para um Futuro Conectado</p>
+        <!-- Slogan ou descrição da missão -->
+
+        <hr>
+        <!-- Linha horizontal para separação visual -->
+    </header>
+
+    <nav>
+        <!-- Menu de navegação principal -->
+        <ul>
+            <!-- Lista de links para outras páginas do site -->
+            <li><a href="index.html">Início</a></li>
+            <li><a href="projeto.html">Projetos sociais</a></li>
+            <li><a href="cadastro.html">Cadastro para Doações</a></li>
+        </ul>
+        <hr>
+    </nav>
+    <main>
+        <section id="hero">
+            <h1>Fale Conosco</h1>
+            <p>Se você chegou até aqui, é porque acredita no poder da transformação e nós também!
+                Este espaço é dedicado a você, que deseja contribuir com ideias, sugestões, dúvidas ou palavras de
+                apoio.
+                <br>
+                Seja você um doador, voluntário ou alguém que quer conhecer melhor nosso trabalho, sua voz é
+                essencial para construirmos juntos um futuro mais justo e sustentável.
+                <br>
+                Preencha o formulário abaixo e compartilhe conosco sua mensagem.
+                <br>
+                Toda interação fortalece nossa rede de impacto social.
+                <br>
+                Convidamos você a se conectar conosco nas redes sociais.
+                Acreditamos na importância da interação e compartilhamento de informações com nossa comunidade.
+                Obrigado por se juntar a nós nesta jornada de descoberta e inovação!
+            </p>
+        </section>
+        <section id="contact">
+            <h2>Informações de Contato</h2>
+
+            <dl>
+                <dt>Endereço:</dt>
+                <dd>Rua da Solidariedade, 44 - Centro, São Paulo - SP, Brasil</dd>
+                <br>
+
+                <dt>Telefone:</dt>
+                <dd>+55 (11) 98765-1234</dd>
+                <dd>+55 (11) 5448-1234</dd>
+                <br>
+
+                <dt>Email:</dt>
+                <dd>contato@retech.org.br</dd>
+                <br>
+
+                <dt>Site:</dt>
+                <dd>www.retech.org.br</dd>
+                <br>
+
+                <dt>Redes Sociais:</dt>
+                <dd>@retechbrasil</dd>
+                <br>
+
+            </dl>
+        </section>
+    </main>
+    <form>
+        <fieldset>
+            <legend>Dúvidas, Sugestões ou Comentários</legend>
+
+            <!-- Nome do remetente -->
+            <label for="nome">Nome completo:</label><br>
+            <input type="text" id="nome" name="nome" required><br>
+
+            <!-- E-mail para resposta -->
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+
+            <!-- Tipo de mensagem -->
+            <label for="tipo">Tipo de mensagem:</label><br>
+            <select id="tipo" name="tipo" required>
+                <option value="">Selecione</option>
+                <option value="duvida">Dúvida</option>
+                <option value="sugestao">Sugestão</option>
+                <option value="comentario">Comentário</option>
+            </select><br>
+
+            <!-- Mensagem -->
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem aqui..."
+                required></textarea><br><br>
+
+            <!-- Botão de envio -->
+            <button type="submit">Enviar</button>
+        </fieldset>
+    </form>
+    <!-- Rodapé -->
+    <footer>
+        <hr>
+        <p>
+            📍 São Paulo, SP | ✉️ contato@retech.org.br | 🌐 www.retech.org.br | 📱 @retechbrasil
+        </p>
+    </footer>
+</body>
+
+</html>
