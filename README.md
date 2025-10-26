@@ -22,7 +22,7 @@ O projeto foi estruturado como uma **Experiência Prática** da disciplina, desa
 Apresenta a ONG, sua missão, visao e valores.
 
 - Projetos (projetos.html)
-Atividades da ONG e voluntariado.
+Atividades da ONG.
 
 - Cadastro de Doaçoes (cadastro.html)
 Formulário com validação do CEP.
@@ -38,11 +38,10 @@ Contato, como endereço, telefone e email e formulário para duvidas, comentario
 
 - Estrutura semântica com HTML5
 - Estilização responsiva com CSS3 (em desenvolvimento)
-- Interatividade com JavaScript (em breve)
+- Interatividade com JavaScript (em desenvolvimento)
 - Versionamento com Git e GitHub
 - Validação de formulários com atributos nativos
 - Galeria de imagens e integração multimídia
-- Gráficos com canvas para visualização de dados
 - Documentação técnica e wireframes
 
 
@@ -52,11 +51,12 @@ Contato, como endereço, telefone e email e formulário para duvidas, comentario
 
 - HTML5
 - CSS3 *(em desenvolvimento)*
-- JavaScript *(em breve)*
+- JavaScript *(em desenvolvimento)*
 - Git e GitHub
 
 ---
 
--  Site: Clique aqui
+## Conheça a ONG ReTech
+Clique [ AQUI ]( https://ericaserpa.github.io/Front-End-Para-Web-ONG-ReTech/index.html ) para ver a primeira versão.
 
 
