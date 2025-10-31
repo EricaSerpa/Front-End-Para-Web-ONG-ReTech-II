@@ -2,19 +2,17 @@
 
 Este repositório apresenta o desenvolvimento de uma plataforma web institucional para a ONG **ReTech**, como parte da disciplina **Desenvolvimento Front-End para Web**. O projeto tem caráter acadêmico e visa aplicar, de forma integrada, os fundamentos técnicos de HTML5, CSS3, JavaScript e Git/GitHub em um contexto socialmente relevante.
 
----
 
 ##  Contexto Acadêmico
 
 O projeto foi estruturado como uma **Experiência Prática** da disciplina, desafiando estudantes a desenvolver uma solução digital completa para uma organização do terceiro setor. A proposta contempla múltiplas personas, funcionalidades diversas e requisitos técnicos reais, simulando um ambiente profissional de desenvolvimento front-end.
 
----
+
 
 ##  Objetivos do Projeto
 
 - Desenvolvimento Front-End Para Web 
 
----
 
 ##  Estrutura do site da ONG
 
@@ -32,8 +30,6 @@ Contato, como endereço, telefone e email e formulário para duvidas, comentario
 
 
 
----
-
 ##  Componentes Técnicos da Entrega
 
 - Estrutura semântica com HTML5
@@ -45,18 +41,19 @@ Contato, como endereço, telefone e email e formulário para duvidas, comentario
 - Documentação técnica e wireframes
 
 
----
 
 ##  Tecnologias Utilizadas
 
 - HTML5
-- CSS3 *(em desenvolvimento)*
+- CSS3
 - JavaScript *(em desenvolvimento)*
 - Git e GitHub
 
----
+
 
 ## Conheça a ONG ReTech
 Clique [ AQUI ]( https://ericaserpa.github.io/Front-End-Para-Web-ONG-ReTech/index.html ) para ver a primeira versão.
+Clique [ AQUI ]( https://ericaserpa.github.io/Front-End-Para-Web-ONG-ReTech/index.html ) para ver a segunda versão.
+
 
 

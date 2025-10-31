@@ -5,143 +5,108 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Cadastro de Doadores</title>
-    <!-- Título da aba do navegador -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <!-- Corpo principal da página -->
     <header>
-        <!-- Cabeçalho com logo, título e slogan -->
         <img src="imagens/Logo.png" alt="Logo">
-        <!-- Imagem da logo da associação -->
         <h1>Associação ReTech</h1>
-        <!-- Título principal da página -->
         <p>Tecnologia Reciclada para um Futuro Conectado</p>
-        <!-- Slogan ou descrição da missão -->
-
-        <hr>
-        <!-- Linha horizontal para separação visual -->
 
         <nav>
-            <!-- Menu de navegação principal -->
             <ul>
-                <!-- Lista de links para outras páginas do site -->
                 <li><a href="index.html">Início</a></li>
                 <li><a href="projeto.html">Projetos sociais</a></li>
                 <li><a href="contato.html">Fale Conosco</a></li>
-
             </ul>
-            <hr>
         </nav>
-
-        <h1>♻️ Doações de Lixo Eletrônico</h1>
-        <!-- Título principal da página -->
-        <p>A ONG ReTech acredita que pequenas atitudes geram grandes transformações. Por isso, convidamos você a fazer
-            parte dessa corrente do bem!
-            <br>
-
-            Tem algum eletrônico parado em casa? Celulares, computadores, tablets, impressoras, cabos, peças…
-            <br>
-
-            Se estiverem quebrados, obsoletos ou simplesmente sem uso, você pode dar a eles um destino consciente e
-            ainda ajudar a promover inclusão digital.
-            <br>
-
-            Ao doar seu lixo eletrônico, você contribui diretamente para a capacitação de jovens em situação de
-            vulnerabilidade, além de colaborar com o meio ambiente por meio do descarte responsável.
-            <br>
-
-            Preencha o formulário abaixo.
-            <br>
-
-            Cada equipamento recebido é uma oportunidade de aprendizado, transformação e esperança.
-            <br>
-
-            Em nome de todos os jovens beneficiados pelo projeto, agradecemos profundamente sua colaboração.
-        </p>
-
-
     </header>
 
+    <main>
+        <article>
+            <h1>♻️ Doações de Lixo Eletrônico</h1>
+            <p>
+                A ONG ReTech acredita que pequenas atitudes geram grandes transformações. Por isso, convidamos você a fazer
+                parte dessa corrente do bem!
+                Tem algum eletrônico parado em casa? Celulares, computadores, tablets, impressoras, cabos, peças…
+                Se estiverem quebrados, obsoletos ou simplesmente sem uso, você pode dar a eles um destino consciente e
+                ainda ajudar a promover inclusão digital.
+                Ao doar seu lixo eletrônico, você contribui diretamente para a capacitação de jovens em situação de
+                vulnerabilidade, além de colaborar com o meio ambiente por meio do descarte responsável.
+                Preencha o formulário abaixo.
+                Cada equipamento recebido é uma oportunidade de aprendizado, transformação e esperança.
+                Em nome de todos os jovens beneficiados pelo projeto, agradecemos profundamente sua colaboração.
+            </p>
+        </article>
 
-    <form>
-        <fieldset>
-            <legend>Dados do Doador</legend>
+        <aside>
+            <p><strong>Nota:</strong> Os dados fornecidos são protegidos e usados apenas para fins de contato e logística da doação.</p>
+        </aside>
 
-            <label>Nome completo:
-                <input type="text" name="nome" required>
-            </label><br>
+        <section>
+            <h2>Dados do Doador</h2>
+            <form>
+                <fieldset>
+                    <legend>Dados do Doador</legend>
+                    <label>Nome completo:
+                        <input type="text" name="nome" required>
+                    </label><br>
+                    <label>Email:
+                        <input type="email" name="email" required>
+                    </label><br>
+                    <label>Telefone:
+                        <input type="tel" name="telefone" pattern="\(\d{2}\)\s\d{4,5}-\d{4}" placeholder="(11) 91234-5678" required>
+                    </label><br>
+                    <label>CEP:
+                        <input type="text" id="cep" name="cep" pattern="\d{5}-?\d{3}" placeholder="00000-000" required>
+                    </label><br>
+                    <label>Rua:
+                        <input type="text" id="rua" name="rua" required>
+                    </label><br>
+                    <label>Bairro:
+                        <input type="text" id="bairro" name="bairro" required>
+                    </label><br>
+                    <label>Cidade:
+                        <input type="text" id="cidade" name="cidade" required>
+                    </label><br>
+                    <label>Estado:
+                        <input type="text" id="estado" name="estado" required>
+                    </label>
+                </fieldset>
 
-            <label>Email:
-                <input type="email" name="email" required>
-            </label><br>
+                <fieldset>
+                    <legend>Informações da Doação</legend>
+                    <label>Tipo de equipamento:
+                        <select name="tipo" required>
+                            <option value="">Selecione</option>
+                            <option value="computador">Computador</option>
+                            <option value="notebook">Notebook</option>
+                            <option value="celular">Celular</option>
+                            <option value="tablet">Tablet</option>
+                            <option value="outros">Outros</option>
+                        </select>
+                    </label><br>
+                    <label>Quantidade:
+                        <input type="number" name="quantidade" min="1" required>
+                    </label><br>
+                    <label>Estado do equipamento:
+                        <input type="radio" name="estado" value="funcionando" required> Funcionando
+                        <input type="radio" name="estado" value="precisa-reparo"> Precisa de reparo
+                        <input type="radio" name="estado" value="sem-condicoes"> Sem condições de uso
+                    </label><br>
+                    <label>Observações:
+                        <textarea name="observacoes" rows="4" placeholder="Ex: marca, modelo, acessórios inclusos..."></textarea>
+                    </label>
+                </fieldset>
 
-            <label>Telefone:
-                <input type="tel" name="telefone" pattern="\(\d{2}\)\s\d{4,5}-\d{4}" placeholder="(11) 91234-5678"
-                    required>
-            </label><br>
+                <button type="submit">Cadastrar Doação</button>
+            </form>
+        </section>
+    </main>
 
-            <label>CEP:
-                <input type="text" id="cep" name="cep" pattern="\d{5}-?\d{3}" placeholder="00000-000" required>
-            </label><br>
-
-            <label>Rua:
-                <input type="text" id="rua" name="rua" required>
-            </label><br>
-
-            <label>Bairro:
-                <input type="text" id="bairro" name="bairro" required>
-            </label><br>
-
-            <label>Cidade:
-                <input type="text" id="cidade" name="cidade" required>
-            </label><br>
-
-            <label>Estado:
-                <input type="text" id="estado" name="estado" required>
-            </label>
-        </fieldset>
-
-        <fieldset>
-            <legend>Informações da Doação</legend>
-
-            <label>Tipo de equipamento:
-                <select name="tipo" required>
-                    <option value="">Selecione</option>
-                    <option value="computador">Computador</option>
-                    <option value="notebook">Notebook</option>
-                    <option value="celular">Celular</option>
-                    <option value="tablet">Tablet</option>
-                    <option value="outros">Outros</option>
-                </select>
-            </label><br>
-
-            <label>Quantidade:
-                <input type="number" name="quantidade" min="1" required>
-            </label><br>
-
-            <label>Estado do equipamento:
-                <input type="radio" name="estado" value="funcionando" required> Funcionando
-                <input type="radio" name="estado" value="precisa-reparo"> Precisa de reparo
-                <input type="radio" name="estado" value="sem-condicoes"> Sem condições de uso
-            </label><br>
-
-            <label>Observações:
-                <textarea name="observacoes" rows="4"
-                    placeholder="Ex: marca, modelo, acessórios inclusos..."></textarea>
-            </label>
-        </fieldset>
-
-        <button type="submit">Cadastrar Doação</button>
-    </form>
-
-
-
-    <!-- Rodapé -->
     <footer>
-        <hr>
         <p>
             📍 São Paulo, SP | ✉️ contato@retech.org.br | 🌐 www.retech.org.br | 📱 @retechbrasil
         </p>

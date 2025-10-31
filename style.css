@@ -1,0 +1,321 @@
+
+/* === RESET E ESTILOS GLOBAIS === */
+body {
+    background-color: #ffffff;
+    color: #005799;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a, dt, dd {
+    color: #005799;
+    text-decoration: none;
+}
+
+hr {
+    color: #005799;
+}
+
+ul {
+    margin: 0 auto;
+    padding-left: 20px;
+    max-width: 800px;
+    color: #005799;
+}
+
+/* === ESTRUTURA PRINCIPAL === */
+main {
+    padding: 40px 20px;
+    background-color: #f5f5f5;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 1.6;
+    font-size: 16px;
+    padding: 0 20px;
+}
+
+@media (min-width: 768px) {
+    .container {
+        padding: 0 50px;
+    }
+}
+
+/* === CABEÇALHO === */
+header {
+    background-color: #ffffff;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #5BBE42;
+}
+
+/* === NAVEGAÇÃO === */
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #5BBE42;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    gap: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    font-size: 20px;
+    color: #006399;
+    text-decoration: none;
+    padding: 8px 12px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: white;
+}
+
+nav hr {
+    width: 80%;
+    margin-top: 20px;
+    border: 1px solid #5BBE42;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    nav a {
+        font-size: 18px;
+    }
+
+    nav hr {
+        width: 90%;
+    }
+}
+
+/* === IMAGENS === */
+img {
+    max-width: 50%;
+    width: 50%;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+    max-height: 900px;
+    margin: 12px auto;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+/* === TIPOGRAFIA === */
+
+h1, article h1, article h2, section h2 {
+    color: #5BBE42;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 1.5em;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #005799;
+    text-align: center; 
+}
+
+@media (max-width: 768px) {
+    p {
+        font-size: 16px;
+        padding: 0 10px;
+    }
+}
+
+/* === COMPONENTES === */
+article, aside, section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    border: 1px solid #5BBE42;
+    text-align: center;
+}
+
+aside {
+    font-style: italic;
+    border-left: 5px solid white;
+}
+
+@media (max-width: 768px) {
+    article, aside, section {
+        padding: 15px;
+    }
+
+    section h2 {
+        font-size: 20px;
+    }
+
+    main {
+        padding: 20px 10px;
+    }
+}
+
+/* === FORMULÁRIOS === */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid #5BBE42;
+    color: black;
+}
+
+input, select, button {
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+input, select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.contact-form input {
+    width: 100%;
+    padding: 8px 0;
+    margin: 8px 0;
+}
+
+.contact-form input[type=text] {
+    height: 100px;
+}
+
+.fieldset-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px 20px;
+    align-items: start;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.fieldset-grid legend {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+    padding: 0 10px;
+    color: #006399;
+    border: 1px solid #5BBE42;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group.full {
+    grid-column: 1 / -1;
+}
+
+label {
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #006399;
+}
+
+@media (max-width: 700px) {
+    .fieldset-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+button {
+    color: #ffffff;
+    background-color: #5BBE42;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+    align-self: center;
+    width: 100px;
+    height: 30px;
+}
+
+button:hover {
+    background-color: #4aa934;
+}
+
+/* === RODAPÉ === */
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #4aa934;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 2px;
+}
+
+/* === LISTAS COM TEXTO ALINHADO À ESQUERDA === */
+article ul {
+    list-style-type: disc; /* mantém os marcadores padrão */
+    list-style-position: outside; /* bolinha fora do bloco de texto */
+    padding-left: 40px; /* espaço para os marcadores */
+    margin: 20px auto;
+    max-width: 800px;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #005799;
+    text-align: left; /* garante alinhamento do texto */
+}
+
+article li {
+    margin-bottom: 12px; /* espaçamento entre os itens */
+}
+
+@media (max-width: 768px) {
+    article ul {
+        font-size: 16px;
+        padding-left: 15px;
+    }
+}
+
