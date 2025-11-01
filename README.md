@@ -46,14 +46,13 @@ Contato, como endereço, telefone e email e formulário para duvidas, comentario
 
 - HTML5
 - CSS3
-- JavaScript *(em desenvolvimento)*
+- JavaScript
 - Git e GitHub
 
 
 
 ## Conheça a ONG ReTech
-Clique [ AQUI ]( https://ericaserpa.github.io/Front-End-Para-Web-ONG-ReTech/index.html ) para ver a primeira versão.
-Clique [ AQUI ]( https://ericaserpa.github.io/Front-End-Para-Web-ONG-ReTech/index.html ) para ver a segunda versão.
+Clique [ AQUI ]( https://ericaserpa.github.io/Front-End-Para-Web-ONG-ReTech/index.html )
 
 
 
