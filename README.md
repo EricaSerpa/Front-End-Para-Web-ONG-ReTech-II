@@ -1,58 +1,51 @@
-# ReTech – Tecnologia Reciclada para um Futuro Conectado
+# 🌱 Front-End Para Web ONG ReTech II
 
-Este repositório apresenta o desenvolvimento de uma plataforma web institucional para a ONG **ReTech**, como parte da disciplina **Desenvolvimento Front-End para Web**. O projeto tem caráter acadêmico e visa aplicar, de forma integrada, os fundamentos técnicos de HTML5, CSS3, JavaScript e Git/GitHub em um contexto socialmente relevante.
+Este projeto foi desenvolvido como parte da iniciativa da ONG ReTech II, com o objetivo de criar uma interface web acessível, moderna e funcional para divulgação de ações sociais, projetos e campanhas da organização.
 
+## 📸 Demonstração
 
-##  Contexto Acadêmico
+Acesse a versão online via GitHub Pages:  
+👉 [https://ericaserpa.github.io/Front-End-Para-Web-ONG-ReTech-II](https://ericaserpa.github.io/Front-End-Para-Web-ONG-ReTech-II)
 
-O projeto foi estruturado como uma **Experiência Prática** da disciplina, desafiando estudantes a desenvolver uma solução digital completa para uma organização do terceiro setor. A proposta contempla múltiplas personas, funcionalidades diversas e requisitos técnicos reais, simulando um ambiente profissional de desenvolvimento front-end.
+## 🧩 Funcionalidades da Página
 
+- ✅ Página inicial com apresentação institucional da ONG (`index.html`)
+- 📝 Página de cadastro para voluntários ou interessados (`cadastro.html`)
+- 📞 Página de contato com formulário funcional (`contato.html`)
+- 📂 Página de projetos e ações sociais (`projeto.html`)
+- 🖼️ Galeria de imagens na pasta `imagens/`
+- 🎨 Estilização com CSS na pasta `css/`
+- 🌐 Layout responsivo para dispositivos móveis
 
-
-##  Objetivos do Projeto
-
-- Desenvolvimento Front-End Para Web 
-
-
-##  Estrutura do site da ONG
-
-- Início (index.html)
-Apresenta a ONG, sua missão, visao e valores.
-
-- Projetos (projetos.html)
-Atividades da ONG.
-
-- Cadastro de Doaçoes (cadastro.html)
-Formulário com validação do CEP.
-
-- Contato (contato.html)
-Contato, como endereço, telefone e email e formulário para duvidas, comentarios e sugestoes.
-
-
-
-##  Componentes Técnicos da Entrega
-
-- Estrutura semântica com HTML5
-- Estilização responsiva com CSS3 (em desenvolvimento)
-- Interatividade com JavaScript (em desenvolvimento)
-- Versionamento com Git e GitHub
-- Validação de formulários com atributos nativos
-- Galeria de imagens e integração multimídia
-- Documentação técnica e wireframes
-
-
-
-##  Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
 - HTML5
 - CSS3
-- JavaScript (Em Desenvolvimento)
-- Git e GitHub
+- Flexbox e Media Queries
+
+## 📁 Estrutura do Projeto
+
+📦 ProjetoONG 
+┣ 📂 css 
+┣ 📂 imagens 
+ 📄 index.html 
+ ┣ 📄 cadastro.html 
+ ┣ 📄 contato.html 
+ ┣ 📄 projeto.html 
+ ┣ 📄 README.md
 
 
+## 🚀 Como Executar Localmente
 
-## Conheça a ONG ReTech
-Clique [ AQUI ](  )
+1. Clone o repositório:
+   ```bash
+   git clone git@github.com:EricaSerpa/Front-End-Para-Web-ONG-ReTech-II.git
 
+   📬 Contato
 
+   - LinkedIn: (www.linkedin.com/in/ericaserpa)
+
+📄 Licença
+
+Este projeto está sob a licença MIT.
 
