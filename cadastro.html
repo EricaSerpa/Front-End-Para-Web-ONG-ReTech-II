@@ -6,12 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de Doadores</title>
+    <link rel="icon" href="imagens/Logo.png" type="image/icon">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header>
-        <img src="imagens/Logo.png" alt="Logo">
+        <img src="imagens/Logo.png" alt="Logo da Associação ReTech" loading="lazy">
         <h1>Associação ReTech</h1>
         <p>Tecnologia Reciclada para um Futuro Conectado</p>
 
@@ -90,15 +91,25 @@
                             <option value="tablet">Tablet</option>
                             <option value="outros">Outros</option>
                         </select>
-                    </label><br>
+                    </label>
                     <label>Quantidade:
                         <input type="number" name="quantidade" min="1" required>
                     </label>
-                    <label>Estado do equipamento:
-                        <input type="radio" name="estado" value="funcionando" required> Funcionando
-                        <input type="radio" name="estado" value="precisa-reparo"> Precisa de reparo
-                        <input type="radio" name="estado" value="sem-condicoes"> Sem condições de uso
+
+                    <label>Estado do equipamento:</label>
+                    <label class="radio-label">
+                        Funcionando
+                        <input type="radio" name="estado" value="funcionando" required>
                     </label>
+                    <label class="radio-label">
+                        Precisa de reparo
+                        <input type="radio" name="estado" value="precisa-reparo">
+                    </label>
+                    <label class="radio-label">
+                        Sem condições de uso
+                        <input type="radio" name="estado" value="sem-condicoes">
+                    </label>
+
                     <label>Observações:
                         <textarea name="observacoes" rows="4"
                             placeholder="Ex: marca, modelo, acessórios inclusos..."></textarea>
@@ -117,7 +128,7 @@
     </footer>
 
     <script src="js/main.js"></script>
-    
+
 </body>
 
 </html>
