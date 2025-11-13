@@ -23,18 +23,6 @@ Acesse a versão online via GitHub Pages:
 - CSS3
 - Flexbox e Media Queries
 
-## 📁 Estrutura do Projeto
-
-📦 ProjetoONG 
-┣ 📂 css 
-┣ 📂 imagens 
- 📄 index.html 
- ┣ 📄 cadastro.html 
- ┣ 📄 contato.html 
- ┣ 📄 projeto.html 
- ┣ 📄 README.md
-
-
 ## 🚀 Como Executar Localmente
 
 1. Clone o repositório:
@@ -44,7 +32,7 @@ Acesse a versão online via GitHub Pages:
 
  ## 📬 Contato  
 
-   - [LinkedIn]: (www.linkedin.com/in/ericaserpa)
+   - [LinkedIn](www.linkedin.com/in/ericaserpa)
 
  ## 📄 Licença
 
