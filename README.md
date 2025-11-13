@@ -41,11 +41,12 @@ Acesse a versão online via GitHub Pages:
    ```bash
    git clone git@github.com:EricaSerpa/Front-End-Para-Web-ONG-ReTech-II.git
 
-   📬 Contato
 
-   - LinkedIn: (www.linkedin.com/in/ericaserpa)
+ ## 📬 Contato  
 
-📄 Licença
+   - [LinkedIn]: (www.linkedin.com/in/ericaserpa)
+
+ ## 📄 Licença
 
 Este projeto está sob a licença MIT.
 
